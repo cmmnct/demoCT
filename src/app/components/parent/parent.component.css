@@ -13,7 +13,7 @@
 
 .square {
     position: relative;
-    flex-basis: calc(16% - 10px);
+    flex-basis: calc(20% - 10px);
     margin: 5px;
     border: 1px solid;
     box-sizing: border-box;
