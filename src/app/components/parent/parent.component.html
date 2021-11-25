@@ -1,3 +1,5 @@
 <p>parent works! {{name}} {{time | async}}</p>
-<div *ngFor="let card of cards">{{card.card1}}</div>
+<div class="board">
+    <div (click)="onClickCard(card)" class="square" *ngFor="let card of cards" style="background-image: url('assets/img/{{card.card1}}.jpg');"></div>
+</div>
 <app-child></app-child>

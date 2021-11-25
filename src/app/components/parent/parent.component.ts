@@ -23,4 +23,10 @@ export class ParentComponent implements OnInit {
     this.bi.getCards().subscribe(cards => this.cards = cards);
   }
 
+ 
+
+  onClickCard(card:any){
+    console.log(`U klikte ${card.card1}`)
+  }
+
 }
